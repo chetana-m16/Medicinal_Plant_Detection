@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Secrets & API Keys
+*.pem
+*.key
+*.p12
+*.cer
+*.crt
+secret.txt
+config.json
+credentials.json
+
+# Database
+*.db
+*.sqlite3
+database.db
+
+# Uploads (user uploaded files)
+static/uploads/*
+!static/uploads/.gitkeep
+
+# ML Models (track with Git LFS instead)
+models/*.keras
+models/*.h5
+!models/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
